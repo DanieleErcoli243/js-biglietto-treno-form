@@ -3,13 +3,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial;
 }
 
 /* generici */
 body{
-    background-color: rgb(255, 114, 168);
+    background-color: rgb(139, 30, 72);
+}
+
+h2{
+    color: white;
+    margin: 20px 300px;
+}
+
+.your-ticket{
+    margin-left: 450px;
+}
+
+/* contenitori */
+
+.upper-container,
+.lower-container{
+    max-width: 992px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}    
+
+.upper-container div{
+    text-align: center;
+}
+
+label{
+    color: red;
+    margin-bottom: 20px;
+}
+    
+.upper-container{
+    padding: 20px 100px;  
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.lower-container{
+    height: 290px;
 }
 
 #distance{
     width:  210px;
+}
+
+
+
+button{
+    padding: 5px 10px;
 }
