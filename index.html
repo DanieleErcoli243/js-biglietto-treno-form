@@ -12,7 +12,6 @@
     <body>
         <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
         <div class="upper-container">
-
             <div>
                 <label for="name">Nome Cognome</label>
                 <input id="name" type="number" placeholder="Come ti chiami?" value="">
@@ -25,12 +24,18 @@
         
             <div>
                 <label for="age">Fascia d'età</label>
-                <input id="age" type="number" placeholder="Qual è la tua età?" value="">
+                <select name="age" id="age">
+                    <option value="">Minorenne</option>
+                    <option value="">Maggiorenne</option>
+                    <option value="">Ultra-sessanticinquenne</option>
+                </select>
+
             </div>
             <button id="generate" type="button">Genera</button>
             <button type="reset">Annulla</button>
         </div>
-        <h2>IL TUO BIGLIETTO</h2>
+        
+        <h2 class="your-ticket">IL TUO BIGLIETTO</h2>
         <div class="lower-container">
             <h5>DETTAGLIO PASSEGGERI</h5>
             <table>
