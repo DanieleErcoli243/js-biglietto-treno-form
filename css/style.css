@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* generici */
+body{
+    background-color: rgb(255, 114, 168);
+}
+
 #distance{
     width:  210px;
 }
