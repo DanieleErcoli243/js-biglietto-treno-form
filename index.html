@@ -10,16 +10,59 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div>
-            <label for="">Distanza in km</label>
-            <input id="distance" type="number" placeholder="Quale distanza vuoi percorrere?" value="">
+        <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+        <div class="upper-container">
+
+            <div>
+                <label for="name">Nome Cognome</label>
+                <input id="name" type="number" placeholder="Come ti chiami?" value="">
+            </div>
+        
+            <div>
+                <label for="distance">Km da percorrere</label>
+                <input id="distance" type="number" placeholder="Quale distanza vuoi percorrere?" value="">
+            </div>
+        
+            <div>
+                <label for="age">Fascia d'età</label>
+                <input id="age" type="number" placeholder="Qual è la tua età?" value="">
+            </div>
+            <button id="generate" type="button">Genera</button>
+            <button type="reset">Annulla</button>
         </div>
-        <div>
-            <label for="">Età del passeggero</label>
-            <input id="age" type="number" placeholder="Qual è la tua età?" value="">
+        <h2>IL TUO BIGLIETTO</h2>
+        <div class="container">
+            <h5>DETTAGLIO PASSEGGERI</h5>
+            <table>
+                <tr>
+                    <th>
+                        <h3>NOME PASSEGGERO</h3>
+                    </th>
+                    <th>
+                        <h4>Offerta</h4>
+                    </th>
+                    <th>
+                        <h4>Carrozza</h4>
+                    </th>
+                    <th>
+                        <h4>Codice CP</h4>
+                    </th>
+                    <th>
+                        Costo biglietto
+                    </th>
+                </tr>
+                <tr>
+                    <td>Jon Snow</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
         </div>
-        <input type="button" value="Genera">
-        <input type="reset" value="Anulla">
+        
+        
 
         
         <script type="text/javascript" src="js/script.js"></script>
