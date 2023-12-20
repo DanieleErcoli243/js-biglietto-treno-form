@@ -14,7 +14,10 @@ body{
 h2{
     color: white;
     margin: 20px 300px;
+    font-size: 22px;
 }
+
+
 
 .your-ticket{
     margin-left: 450px;
@@ -28,15 +31,23 @@ h2{
     margin: 0 auto;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 5px 5px 3px rgb(77, 76, 76);
+   
 }    
 
 .upper-container div{
     text-align: center;
 }
 
+.lower-container{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
 label{
     color: red;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    display: block;
 }
     
 .upper-container{
@@ -46,16 +57,39 @@ label{
     height: 300px;
 }
 
-.lower-container{
-    height: 290px;
+.input-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    justify-content: center;
 }
 
-#distance{
-    width:  210px;
+
+.input-card{
+    padding: 0 10px;
+    
 }
 
+
+input,
+select{
+    margin-top: 5px;
+    padding: 10px 15px;
+    border: 2px solid rgb(139, 30, 72);
+    border-radius: 5px;
+}
 
 
 button{
     padding: 5px 10px;
+}
+
+/* contenitore in basso */
+
+.lower-container{
+    height: 290px;
+}
+
+.passenger-name{
+    background-color: gray;
 }
