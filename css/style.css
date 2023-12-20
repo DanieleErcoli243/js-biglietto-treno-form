@@ -32,7 +32,7 @@ h2{
 
 /* contenitori */
 
-main .container{
+main.container{
     max-width: 1080px;
     margin: 0 auto;
 }    
@@ -50,11 +50,7 @@ main .container{
 
 
 
-.lower-container{
 
-    margin: 20px 0;
-    padding: 20px;
-}
 
 label{
     color: red;
@@ -70,7 +66,6 @@ label{
     padding: 20px 100px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -10px;
     justify-content: center;
 }
 
@@ -78,6 +73,7 @@ label{
 .input-card{
     padding: 0 10px;
     flex-basis: calc(100% / 3);
+    text-align: center;
 }
 
 .buttons-box{
@@ -104,6 +100,8 @@ button{
     display: flex;
 }
 
+
+
 .ticket-preview{
     padding: 20px;
 }
@@ -111,5 +109,13 @@ button{
 .passenger-name{
     background-color: gray;
     padding: 20px 10px 50px 10px;
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.ticket-info{
+    flex-grow: 1;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
