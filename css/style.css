@@ -25,22 +25,27 @@ h2{
 
 /* contenitori */
 
-.upper-container,
-.lower-container{
-    max-width: 992px;
+main .container{
+    max-width: 1080px;
     margin: 0 auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 5px 5px 3px rgb(77, 76, 76);
-   
 }    
 
 .upper-container div{
     text-align: center;
 }
 
+.input-row,
+.ticket-preview{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgb(77, 76, 76);
+}
+
+
+
 .lower-container{
-    margin-bottom: 20px;
+
+    margin: 20px 0;
     padding: 20px;
 }
 
@@ -52,12 +57,11 @@ label{
     
 .upper-container{
     padding: 20px 100px;  
-    display: flex;
-    justify-content: center;
-    height: 300px;
+    
 }
 
 .input-row{
+    padding: 20px 100px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 -10px;
@@ -67,9 +71,12 @@ label{
 
 .input-card{
     padding: 0 10px;
-    
+    flex-basis: calc(100% / 3);
 }
 
+.buttons-box{
+    margin-top: 50px;
+}
 
 input,
 select{
@@ -82,6 +89,7 @@ select{
 
 button{
     padding: 5px 10px;
+    border-radius: 5px;
 }
 
 /* contenitore in basso */
