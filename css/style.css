@@ -21,7 +21,14 @@ h2{
     margin: 20px;
 }
 
+/* utili */
+.card{
+    padding: 0 10px;
+}
 
+.row{
+    margin: 0 -10px;
+}
 
 /* contenitori */
 
@@ -93,10 +100,16 @@ button{
 
 /* contenitore in basso */
 
+.ticket-box{
+    display: flex;
+}
+
 .ticket-preview{
     padding: 20px;
 }
 
 .passenger-name{
     background-color: gray;
+    padding: 20px 10px 50px 10px;
 }
+
