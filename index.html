@@ -10,37 +10,44 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+        
+        <h2 class="ticket-price">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
         <div class="upper-container">
-            <div>
-                <label for="name">Nome Cognome</label>
-                <input id="name" type="number" placeholder="Come ti chiami?" value="">
+            <div class="input-row">
+                <div class="input-card">
+                    <label for="name">Nome Cognome</label>
+                    <input id="name" type="number" placeholder="Inserisci il tuo nome">
+                </div>
+            
+                <div class="input-card">
+                    <label for="distance">Km da percorrere</label>
+                    <input id="distance" type="number" placeholder="Inserisci la distanza in km">
+                </div>
+            
+                <div class="input-card">
+                    <label for="age">Fascia d'età</label>
+                    <select name="age" id="age">
+                        <option value="">Minorenne</option>
+                        <option value="">Maggiorenne</option>
+                        <option value="">Ultra-sessanticinquenne</option>
+                    </select>
+    
+                </div>
+                <div class="input-card">
+                    <button id="generate" type="button">Genera</button>
+                    <button type="reset">Annulla</button>
+                </div>
+                
             </div>
-        
-            <div>
-                <label for="distance">Km da percorrere</label>
-                <input id="distance" type="number" placeholder="Quale distanza vuoi percorrere?" value="">
-            </div>
-        
-            <div>
-                <label for="age">Fascia d'età</label>
-                <select name="age" id="age">
-                    <option value="">Minorenne</option>
-                    <option value="">Maggiorenne</option>
-                    <option value="">Ultra-sessanticinquenne</option>
-                </select>
-
-            </div>
-            <button id="generate" type="button">Genera</button>
-            <button type="reset">Annulla</button>
         </div>
+            
         
         <h2 class="your-ticket">IL TUO BIGLIETTO</h2>
         <div class="lower-container">
             <h5>DETTAGLIO PASSEGGERI</h5>
             <table>
                 <tr>
-                    <th>
+                    <th class="passenger-name">
                         <h3>NOME PASSEGGERO</h3>
                     </th>
                     <th>
