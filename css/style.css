@@ -119,3 +119,15 @@ button{
     border-bottom: 1px solid gray;
 }
 
+.row{
+    display: flex;
+}
+
+table{
+    width: 100%;
+}
+
+th,
+tr{
+    flex-basis: 25%;
+}
