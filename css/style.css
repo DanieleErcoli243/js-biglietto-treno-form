@@ -124,6 +124,7 @@ button{
 
 .row{
     display: flex;
+    justify-content: space-between;
 }
 
 table{
@@ -133,4 +134,12 @@ table{
 th,
 tr{
     flex-basis: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card{
+    margin-top: 20px;
+    flex-basis: 25%;
+    text-align: left;
 }
