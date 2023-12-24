@@ -27,5 +27,5 @@ confirmButton.addEventListener("click", function(){
     // Ricorda di convalidare i valori
 
     // calcolo del prezzo di base
-    let startingPrice = pricePerKm * distance;
+    let price = pricePerKm * distance;
 })
