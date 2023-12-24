@@ -46,7 +46,7 @@ confirmButton.addEventListener("click", function(){
     const cpCode = Math.floor(Math.random() * (100000 - 90000) + 90000);
 
     // creo i contenuti dei campi del bigliett
-    passengerName = name;
+    passengerName.innerText = name;
     discountGift.innerText = giftType; 
     trainCarriage.innerText = car; 
     code.innerText = cpCode;
