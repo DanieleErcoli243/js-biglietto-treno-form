@@ -28,9 +28,9 @@
                 <div class="input-card">
                     <label for="age">Fascia d'età</label>
                     <select name="age" id="age">
-                        <option>Minorenne</option>
-                        <option>Maggiorenne</option>
-                        <option>Ultra-sessanticinquenne</option>
+                        <option selected value="">Adulto</option>
+                        <option value="under">Minore di 18 anni</option>
+                        <option value="over">Ultra-sessanticinquenne</option>
                     </select>
                 </div>
                 <div class="buttons-box">
@@ -38,7 +38,7 @@
                     <button type="reset">Annulla</button>
                 </div>
             </section>
-            <section class="ticket-row">
+            <section class="ticket-row d-none">
                 <div class="title-container">
                     <h2 class="your-ticket">IL TUO BIGLIETTO</h2>
                 </div>
