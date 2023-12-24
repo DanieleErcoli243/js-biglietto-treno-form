@@ -37,5 +37,9 @@ confirmButton.addEventListener("click", function(){
         price = (price / 100) * 40;
     }
 
-    console.log(price, giftType);
+    // genero un numero casuale per la carrozza
+
+    const car = Math.floor(Math.random() * 5) + 1;
+    console.log(car);
+    
 })
