@@ -16,3 +16,4 @@ const ticketSection = document.querySelector(".ticket-row.d-none");
 const pricePerKm = 0.21;
 const underDiscount = 20;
 const overDiscount = 40;
+let giftType = "Offerta Standard";
