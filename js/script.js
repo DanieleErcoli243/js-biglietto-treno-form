@@ -1,6 +1,6 @@
 // Raccolgo tutti gli elementi che mi occorrono
 
-const passengerName = document.getElementById("passenger-name");
+const passengerName = document.querySelector(".passenger-name p");
 const distanceToGo = document.getElementById("distance");
 const passengerAge = document.getElementById("age");
 const confirmButton = document.getElementById("generate");
@@ -9,7 +9,7 @@ const discountGift = document.querySelector(".gift");
 const trainCarriage = document.querySelector(".carriage");
 const code = document.querySelector(".cp-code");
 const finalPrice = document.querySelector(".final-price");
-const ticketSection = document.querySelector(".ticket-row.d-none");
+const ticketSection = document.querySelector(".ticket-row");
 // creo le variabili di base
 
 const pricePerKm = 0.21;
@@ -44,5 +44,14 @@ confirmButton.addEventListener("click", function(){
     // genero un numero casuale a cinque cifre per il biglietto
 
     const cpCode = Math.floor(Math.random() * (100000 - 90000) + 90000);
-    
+
+    // creo i contenuti dei campi del bigliett
+    passengerName = name;
+    discountGift.innerText = giftType; 
+    trainCarriage.innerText = car; 
+    code.innerText = cpCode;
+    finalPrice.innerText = "€" + price.toFixed(2);
+
+    // faccio apparire il biglietto
+    ticketSection.classList.remove("d-none");
 })
