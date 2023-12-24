@@ -10,7 +10,6 @@ const trainCarriage = document.querySelector(".carriage");
 const code = document.querySelector(".cp-code");
 const finalPrice = document.querySelector(".final-price");
 const ticketSection = document.querySelector(".ticket-row.d-none");
-
 // creo le variabili di base
 
 const pricePerKm = 0.21;
@@ -21,5 +20,9 @@ let giftType = "Offerta Standard";
 // faccio reagire il botton di conferma al click
 
 confirmButton.addEventListener("click", function(){
-    console.log("cliccato");
+    // recupero i valori del form
+    const name = passengerName.value.trim();
+    const distance = parseInt(distanceToGo.value);
+    const age = passengerAge.value.trim();
+    console.log(name, distance, age);
 })
