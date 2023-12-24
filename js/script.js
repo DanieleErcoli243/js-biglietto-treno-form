@@ -24,5 +24,8 @@ confirmButton.addEventListener("click", function(){
     const name = passengerName.value.trim();
     const distance = parseInt(distanceToGo.value);
     const age = passengerAge.value.trim();
-    console.log(name, distance, age);
+    // Ricorda di convalidare i valori
+
+    // calcolo del prezzo di base
+    let startingPrice = pricePerKm * distance;
 })
