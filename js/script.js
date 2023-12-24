@@ -1,11 +1,9 @@
-// recupero le informazioni dall'utente e dichiaro una costante
+// Raccolgo tutti gli elementi che mi occorrono
 
-const button = document.getElementById(generate);
-
-console.log(button);
-button.addEventListener("click", function() {
-    const distanceToGo = parseInt(distanceToGo.value);
-    const passengerAge = parseInt(passengerName.value);
-    console.log (distanceToGo, passengerAge);
-})
+const confirmButton = document.getElementById("generate");
+const resetButton = document.getElementById("reset");
+const discountGift = document.quesrySelector(".gift");
+const trainCarriage = document.quesrySelector(".carriage");
+const code = document.quesrySelector(".cp-code");
+const finalPrice = document.quesrySelector(".final-price");
 
