@@ -9,6 +9,7 @@ const discountGift = document.quesrySelector(".gift");
 const trainCarriage = document.quesrySelector(".carriage");
 const code = document.quesrySelector(".cp-code");
 const finalPrice = document.quesrySelector(".final-price");
+const ticketSection = document.querySelector(".ticket-row.d-none");
 
 // creo le variabili di base
 
