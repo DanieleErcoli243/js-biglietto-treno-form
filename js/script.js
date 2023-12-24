@@ -25,6 +25,10 @@ confirmButton.addEventListener("click", function(){
     const distance = parseInt(distanceToGo.value);
     const age = passengerAge.value.trim();
     // Ricorda di convalidare i valori
+    if (!name || isNaN(distance) || isNaN(age) || distance < 0 || age < 0){
+        alert("I dati che hai inserito non sono corretti. Prego riempire i campi colle informazioni corrette")
+        return;
+    }
 
     // calcolo del prezzo di base
     let price = pricePerKm * distance;
