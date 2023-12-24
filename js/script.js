@@ -1,5 +1,8 @@
 // Raccolgo tutti gli elementi che mi occorrono
 
+const passengerName = document.getElementById("passenger-name");
+const distanceToGo = document.getElementById("distance");
+const passengerAge = document.getElementById("age");
 const confirmButton = document.getElementById("generate");
 const resetButton = document.getElementById("reset");
 const discountGift = document.quesrySelector(".gift");
