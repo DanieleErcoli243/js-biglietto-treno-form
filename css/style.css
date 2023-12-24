@@ -30,6 +30,10 @@ h2{
     margin: 0 -10px;
 }
 
+.d-none{
+    display: none;
+}
+
 /* contenitori */
 
 main.container{
@@ -99,7 +103,6 @@ button{
 .ticket-box{
     display: flex;
 }
-
 
 
 .ticket-preview{
