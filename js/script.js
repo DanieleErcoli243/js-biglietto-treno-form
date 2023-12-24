@@ -28,4 +28,14 @@ confirmButton.addEventListener("click", function(){
 
     // calcolo del prezzo di base
     let price = pricePerKm * distance;
+    // calcolo dello sconto
+    if (age === "under"){
+        giftType = "Offerta iunior";
+        price = (price / 100) * 20;
+    } else if (age === "over") {
+        giftType = "Offerta senior";
+        price = (price / 100) * 40;
+    }
+
+    console.log(price, giftType);
 })
