@@ -40,6 +40,9 @@ confirmButton.addEventListener("click", function(){
     // genero un numero casuale per la carrozza
 
     const car = Math.floor(Math.random() * 5) + 1;
-    console.log(car);
+    
+    // genero un numero casuale a cinque cifre per il biglietto
+
+    const cpCode = Math.floor(Math.random() * (10000 - 9000) + 9000);
     
 })
