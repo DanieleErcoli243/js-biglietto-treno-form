@@ -1,3 +1,7 @@
+Biglietto Treno
+This project is the same as the other one, but this time it's used a form to get the data from the users and manipulates the DOM to show the result. 
+There's also a layout to show the form and then the ticket when the program has calculated the price of the ticket and added or not the discount according to the age of the user.
+
 Ciao ragazzi,
 esercizio di oggi: Biglietto del treno DOM
 repo: js-biglietto-treno-form
